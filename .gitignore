@@ -1,0 +1,14 @@
+# 1. Rahasia & Konfigurasi Lokal (Paling Penting!)
+config/database.php
+.env
+
+# 2. Folder Dependency (Jika nanti pakai Composer)
+vendor/
+
+# 3. Pengaturan Editor (VS Code)
+.vscode/
+.idea/
+
+# 4. Sampah Sistem Operasi
+.DS_Store
+Thumbs.db
