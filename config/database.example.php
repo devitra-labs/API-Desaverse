@@ -2,9 +2,9 @@
 
 class Database {
     private $host = "localhost";
-    private $db_name = "db_desaverse";
-    private $username = "root"; // Default XAMPP
-    private $password = "kepikepp";     // Default XAMPP kosong
+    private $db_name = "db_name";
+    private $username = "your_username"; // Default XAMPP
+    private $password = "your_password";     // Default XAMPP kosong
     public $conn;
 
     public function getConnection() {

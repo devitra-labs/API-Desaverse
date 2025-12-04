@@ -1,14 +1,9 @@
-# 1. Rahasia & Konfigurasi Lokal (Paling Penting!)
+# Abaikan file koneksi asli (yang ada passwordnya)
 config/database.php
-.env
 
-# 2. Folder Dependency (Jika nanti pakai Composer)
-vendor/
-
-# 3. Pengaturan Editor (VS Code)
+# Abaikan folder settingan VS Code (jika ada)
 .vscode/
-.idea/
 
-# 4. Sampah Sistem Operasi
+# Abaikan file sampah OS
 .DS_Store
 Thumbs.db
